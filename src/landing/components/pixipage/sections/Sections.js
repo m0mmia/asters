@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js";
-import { getIsMobile } from "../../../../../utils";
+import { getIsMobile } from "../../../../utils";
 import { SVG } from "pixi-svg";
 import { clamp } from "ramda";
 import { gsap, TweenMax } from "gsap";

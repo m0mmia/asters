@@ -1,12 +1,12 @@
 import React, { useRef, useEffect, useContext } from "react";
 import bodymovin from "lottie-web";
 import styled from "styled-components";
-import { assetUrl, proportional } from "../../../utils";
+import { assetUrl, proportional } from "../../utils";
 import gsap from "gsap";
 import {
   AnimationContext,
   PreloadContext,
-} from "../../../components/preloader";
+} from "../../components/preloader";
 
 const Container = styled.div.attrs({ width: [150, 200] })`
   ${proportional}

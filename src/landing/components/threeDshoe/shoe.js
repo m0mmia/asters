@@ -15,12 +15,12 @@ import {
 import {
   ThreeContext,
   AnimationContext,
-} from "../../../../components/preloader/Context";
+} from "../../../components/preloader/Context";
 
 import { TweenMax, Circ, Power4, Linear, gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
 
-import { assetUrl, media, getIsMobileWidth, proportional } from "../../../../utils";
+import { assetUrl, media, getIsMobileWidth, proportional } from "../../../utils";
 import { Timeline } from "gsap/gsap-core";
 
 export const POSES = {

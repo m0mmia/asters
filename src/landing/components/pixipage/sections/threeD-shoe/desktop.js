@@ -1,4 +1,4 @@
-import { assetUrl } from "../../../../../../utils";
+import { assetUrl } from "../../../../../utils";
 import * as PIXI from "pixi.js";
 import Sections from "../Sections";
 import { gsap, TweenMax } from "gsap";

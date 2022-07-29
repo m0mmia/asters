@@ -2,7 +2,7 @@ import gsap, {Linear} from 'gsap/gsap-core';
 import React, { useRef, useState } from 'react';
 import ReactVisibilitySensor from 'react-visibility-sensor';
 import styled from 'styled-components';
-import { proportional } from '../../../../utils';
+import { proportional } from '../../../utils';
 import {ShopNow} from './index';
 
 const CallToActionWrap = styled.div.attrs({paddingLeft: [20,20], paddingRight: [31,31], paddingTop: [15,21], paddingBottom: [15,21]})`

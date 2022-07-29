@@ -2,7 +2,7 @@ import gsap, {Linear} from 'gsap/gsap-core';
 import React, { useEffect, useRef, useState } from 'react';
 import ReactVisibilitySensor from 'react-visibility-sensor';
 import styled from 'styled-components';
-import { proportional } from '../../../../utils';
+import { proportional } from '../../../utils';
 import { AnimatedArrow } from '../DecoElements';
 import { P } from '../Text/Paragraph';
 

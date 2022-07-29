@@ -1,5 +1,5 @@
 import React, { useState, createContext, useEffect, useRef } from "react";
-import { getIsMobileWidth } from "../../../utils";
+import { getIsMobileWidth } from "../../utils";
 export const SiteStateContext = createContext();
 export const SiteContentContext = createContext();
 export const ShoePositionContext = createContext();

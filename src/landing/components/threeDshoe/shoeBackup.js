@@ -7,7 +7,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
-import { assetUrl } from "../../../../utils";
+import { assetUrl } from "../../../utils";
 
 export const POSES = {
   INITIAL: "INITIAL",
@@ -233,7 +233,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 import { TweenMax, Circ, Power4, Linear } from "gsap";
 
-import { assetUrl, media } from "../../../../utils";
+import { assetUrl, media } from "../../../utils";
 
 
 export const POSES = {

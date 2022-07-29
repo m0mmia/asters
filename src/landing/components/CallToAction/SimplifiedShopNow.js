@@ -1,10 +1,9 @@
 import React, { useRef, useEffect, useState } from "react";
 import styled from "styled-components";
 import { P } from "../Text/Paragraph";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import ArrowSvg from "../DecoElements/AnimatedArrow/ArrowSvg";
 import gsap from "gsap";
-import { useBaseUrl } from "../../../../i18n/siteContext";
 
 const Container = styled.a.attrs({ width: [89, 148], height: [32, 52] })`
   ${proportional};
@@ -42,7 +41,6 @@ export default ({ href, isVisible = true, color = "white", children }) => {
   const visibleTlRef = useRef(gsap.timeline({ paused: true }));
   const hoverTlRef = useRef(gsap.timeline({ paused: true }));
   let borderColor, borderColorInvisible;
-  const formatLink = useBaseUrl();
 
   switch (color) {
     case "black":
@@ -163,7 +161,6 @@ export default ({ href, isVisible = true, color = "white", children }) => {
 
   return (
     <Container
-      href={formatLink(href)}
       ref={containerRef}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}

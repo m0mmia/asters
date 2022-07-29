@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useContext } from "react";
 import styled from "styled-components";
 import GridImages from "../components/GridImages";
 import { TextFirst, TextSecond, TextThird } from "../components/FixedTexts";
-import { getIsMobileWidth } from "../../../utils";
+import { getIsMobileWidth } from "../../utils";
 import {
   SiteStateContext,
   SITE_STATE_1,

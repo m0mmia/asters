@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { useProduct, useTranslation } from "../../../hooks";
+import { useProduct, useTranslation } from "../../hooks";
 import { getSiteCurrency } from "../../../i18n/siteContext";
-import { assetUrl, getIsMobileWidth, proportional } from "../../../utils";
+import { assetUrl, getIsMobileWidth, proportional } from "../../utils";
 import { CallToAction } from "../components/CallToAction";
 import {
   ResponsiveImageBlock,
@@ -113,45 +113,5 @@ export default () => {
   return (
     <SectionContainer>
     </SectionContainer>
-  );
-};
-
-const OriginatorProductCards = () => {
-  const propsFromProduct = useProduct();
-  const items = getSiteCurrency() == "eu" ? singlesEu : singlesCh;
-  const [productActive, setProductActive] = useState(false);
-  const isMobile = getIsMobileWidth();
-
-  return (
-    <>
-      <ProductCardContainer>
-        <AnimatedWrapperNoFade
-          transitions={{
-            variant: "vertical",
-            yStart: isMobile ? 40 : 180,
-            yEnd: isMobile ? 0 : 0,
-          }}
-        >
-          <ProductCard
-            active={false}
-            product={{ ...propsFromProduct(items[0]) }}
-          />
-        </AnimatedWrapperNoFade>
-      </ProductCardContainer>
-      <ProductCardContainerAlt>
-        <AnimatedWrapperNoFade
-          transitions={{
-            variant: "vertical",
-            yStart: isMobile ? 30 : 100,
-            yEnd: isMobile ? 0 : 0,
-          }}
-        >
-          <ProductCard
-            active={false}
-            product={{ ...propsFromProduct(items[1]) }}
-          />
-        </AnimatedWrapperNoFade>
-      </ProductCardContainerAlt>
-    </>
   );
 };

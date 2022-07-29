@@ -1,5 +1,4 @@
 import React, { useState, createContext } from "react";
-import {PreloadContextProvider} from "../../../../components/preloader/Context";
 
 export const ThreeShoeContext = createContext();
 export const ThreeShoelaceContext = createContext();

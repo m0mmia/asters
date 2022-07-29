@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState, useContext } from "react";
 import styled from "styled-components";
 import Shoe, { POSES } from "./shoe";
-import { useTranslation } from "../../../../hooks";
-import { assetUrl, media, proportional, getIsMobileWidth } from "../../../../utils";
+import { useTranslation } from "../../../hooks";
+import { assetUrl, media, proportional, getIsMobileWidth } from "../../../utils";
 import { TitleScaling } from "../Text/Title";
 import { AnimationScrollIndicator } from "../ScrollIndicator/AnimationScrollIndicator";
 import gsap from "gsap";

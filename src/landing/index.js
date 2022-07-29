@@ -1,15 +1,13 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import Page from "./Page";
-import { Layout } from "../../layout";
 import SiteContextProvider from "./components/SiteContext";
 import ThreeDshoe from "./components/threeDshoe/index";
-import { renderPage } from "../../utils/renderPage";
 import { LoaderAnimation } from "./components/LoaderAnimation";
-import Preloader, { PreloadContextProvider } from "../../components/preloader";
+import Preloader, { PreloadContextProvider } from "../components/preloader";
 import BottomBrand from "./components/DecoElements/BottomBrand";
-import { assetUrl, media, proportional } from "../../utils";
-import GradientOverlay from "../../components/gradientOverlay/GradientOverlay";
+import { assetUrl, media, proportional } from "../utils";
+import GradientOverlay from "../components/gradientOverlay/GradientOverlay";
 
 const Container = styled.div`
   position: relative;
@@ -25,7 +23,7 @@ const LoaderContainer = styled.div`
   width: 100vw;
   height: 100vh;
   background: black;
-  background-image: url(${assetUrl(`/images/karlkani2/background.jpg`)});
+  background-image: url(${assetUrl(`/images/background.jpg`)});
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,12 +53,12 @@ const Asters = React.memo(() => {
   console.log("LAYOUT RERENDER");
 
   const images = [
-    assetUrl("/images/karlkani2/grid_1.jpg"),
-    assetUrl("/images/karlkani2/grid_2.jpg"),
-    assetUrl("/images/karlkani2/grid_3.jpg"),
-    assetUrl("/images/karlkani2/grid_4.jpg"),
-    assetUrl("/images/karlkani2/grid_5.jpg"),
-    assetUrl("/images/karlkani2/grid_6.jpg"),
+    assetUrl("/images/grid_1.jpg"),
+    assetUrl("/images/grid_2.jpg"),
+    assetUrl("/images/grid_3.jpg"),
+    assetUrl("/images/grid_4.jpg"),
+    assetUrl("/images/grid_5.jpg"),
+    assetUrl("/images/grid_6.jpg"),
   ];
 
   useEffect(() => {
@@ -76,7 +74,6 @@ const Asters = React.memo(() => {
   }, []);
 
   return (
-    <Layout>
       <Container>
         <GradientOverlay />
         <SiteContextProvider>
@@ -88,7 +85,6 @@ const Asters = React.memo(() => {
           </PreloadContextProvider>
         </SiteContextProvider>
       </Container>
-    </Layout>
   );
 });
 

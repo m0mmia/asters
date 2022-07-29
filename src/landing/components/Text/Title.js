@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import { H } from "./Heading";
 
 const Title1 = styled(H).attrs({ variant: "h1", marginBottom: [10] })`

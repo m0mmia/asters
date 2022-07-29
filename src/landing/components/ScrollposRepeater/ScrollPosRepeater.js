@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled, { useTheme } from "styled-components";
 import VisibilitySensor from "react-visibility-sensor";
-import { ScrollPos, media } from "../../../../utils/ScrollPos";
+import { ScrollPos, media } from "../../../utils/ScrollPos";
 import { gsap } from "gsap";
 import { Title7 } from "../Text";
 

@@ -1,19 +1,9 @@
 import React, { useState, useContext } from "react";
 import styled from "styled-components";
-import { assetUrl, media, proportional } from "../../../utils";
+import { assetUrl, media, proportional } from "../../utils";
 import { Title2, Title8 } from "../components/Text";
-import CarouselWrapper from "../components/CarouselWrap/CarouselWrapper";
-import { coloursEu, coloursCh } from "../../../data/products/karlkani2";
-import { getSiteCurrency } from "../../../i18n/siteContext";
-import { useProduct, useTranslation } from "../../../hooks";
-import { Slide } from "../components/Product";
+import { useTranslation } from "../../hooks";
 import ShopNow from "../components/CallToAction/SimplifiedShopNow";
-
-import { SensoredBrand, Brand } from "../components/DecoElements";
-import { TextWrapper } from "../components/AnimatingWrapping";
-import { StaticMobile, HoverText } from "../components/HoverText";
-import VisibleHelper from "../components/AnimatingWrapping/VisibleHelper";
-import StaggerTextBlock from "../components/AnimatingWrapping/StaggerTextBlock";
 import { ShoePositionContext } from "../components/SiteContext";
 
 // import Brand from '../components/DecoElements/BottomBrand/Brand';

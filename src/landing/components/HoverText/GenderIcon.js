@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import CircleTextCurrentColor from "../../../../components/text-effects/CircleTextCurrentColor";
+import CircleTextCurrentColor from "../../../components/text-effects/CircleTextCurrentColor";
 
 export const GenderIcon = (props) => {
   const { name } = props;

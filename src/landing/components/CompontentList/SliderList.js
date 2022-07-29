@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { useProduct } from "../../../../hooks";
-import { getIsMobileWidth, proportional } from "../../../../utils";
+import { useProduct } from "../../../hooks";
+import { getIsMobileWidth, proportional } from "../../../utils";
 import { itemsEu, itemsCh } from "../../../../data/products/karlkani";
 import { getSiteCurrency } from "../../../../i18n/siteContext";
 import { Slide, ProductCard } from "../Product";

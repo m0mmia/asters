@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { assetUrl, media, proportional } from "../../../utils";
+import { assetUrl, media, proportional } from "../../utils";
 import BlackParallaxUnit from "./BlackParallaxUnit";
 import Colourways from "./Colourways";
 import DiscoverApparel from "./DiscoverApparel";
-import FooterSection from "./FooterSection";
-import Originator from "./Originator";
+
 
 const SectionContainer = styled.div`
   position: relative;
@@ -38,7 +37,6 @@ export const Sections = () => {
       </TopSectionContainer>
       <BottomSectionContainer>
         <Colourways />
-        <Originator />
         <DiscoverApparel />
       </BottomSectionContainer>
     </>

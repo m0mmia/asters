@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState, useCallback } from "react";
 import styled from "styled-components";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
 

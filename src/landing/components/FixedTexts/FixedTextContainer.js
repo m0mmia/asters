@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { proportional, media } from "../../../../utils";
+import { proportional, media } from "../../../utils";
 
 const Container = styled.div.attrs({
   width: [180, 500],

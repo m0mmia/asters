@@ -1,7 +1,7 @@
 import gsap, { Linear } from "gsap/gsap-core";
 import React, { useCallback, useEffect, useRef } from "react";
 import styled from "styled-components";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 
 export const Container = styled.div.attrs({ width: [73, 165] })`
   ${proportional};

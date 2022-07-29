@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styled from 'styled-components';
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import { TextWrapper } from "../AnimatingWrapping";
 import { BottomBrand } from "../BottomBrand/BottomBrand";
 import { ScrollIndicator } from "../ScrollIndicator";

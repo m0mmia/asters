@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
-import { getIsMobileWidth } from "../../../../utils";
+import { getIsMobileWidth } from "../../../utils";
 
 const DiscoverBackground = styled.div`
   position: relative;

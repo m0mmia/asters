@@ -3,8 +3,8 @@ import Brand from "./Brand";
 import styled from "styled-components";
 import { Text4 } from "../../Text";
 import gsap, { ColorProps } from "gsap";
-import { proportional } from "../../../../../utils";
-import { useTranslation } from "../../../../../hooks";
+import { proportional } from "../../../../utils";
+import { useTranslation } from "../../../../hooks";
 import {
   SiteStateContext,
   SITE_STATE_2,

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import {proportional } from "../../../../../utils";
+import {proportional } from "../../../../utils";
 import { gsap } from "gsap";
 import ArrowSvg from "./ArrowSvg";
 

@@ -6,7 +6,7 @@ import { useBaseUrl } from "../../../../i18n/siteContext";
 
 import threeDShoeSection from "./sections/threeD-shoe/desktop";
 
-import { clamp } from "../../../../utils/Clamp";
+import { clamp } from "../../../utils/Clamp";
 import { gsap, TweenMax } from "gsap";
 import { ScrollToPlugin } from "../../../../libs/ScrollToPlugin";
 

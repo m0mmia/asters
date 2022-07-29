@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useTranslation, useProduct } from "../../../../hooks";
+import { useTranslation, useProduct } from "../../../hooks";
 import { getSiteCurrency } from "../../../../i18n/siteContext";
 import {
   apparelEu,
@@ -13,9 +13,9 @@ import {
   UgcGrid,
   ProductItem,
   P,
-} from "../../components";
+} from "../components";
 import styled from "styled-components";
-import { getIsMobileWidth, media, proportional } from "../../../../utils";
+import { getIsMobileWidth, media, proportional } from "../../../utils";
 
 const SectionWithBackground = styled.section.attrs({
   top: [-1100, -400],

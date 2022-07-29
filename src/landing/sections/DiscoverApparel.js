@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState, useContext } from "react";
 import styled from "styled-components";
-import { assetUrl, media, proportional } from "../../../utils";
-import { DiscoverCard } from "../components/DiscoverCard";
+import { assetUrl, media, proportional } from "../../utils";
 import { Title4, Text2 } from "../components/Text";
 import FixedTextContainer from "../components/FixedTexts/FixedTextContainer";
 import { RoadZero, RoadFirst, RoadSecond, RoadThird } from "../components/FixedTexts";

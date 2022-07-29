@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { useProduct } from "../../../../hooks";
-import { proportional } from "../../../../utils";
+import { useProduct } from "../../../hooks";
+import { proportional } from "../../../utils";
 import {CallToAction, ShopNow} from "../CallToAction";
 import { itemsEu, itemsCh } from "../../../../data/products/karlkani";
 import { getSiteCurrency } from "../../../../i18n/siteContext";

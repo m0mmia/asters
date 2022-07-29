@@ -2,8 +2,8 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { gsap, Linear } from "gsap";
 import VisibilitySensor from "react-visibility-sensor";
-import { useScrollPos } from "../../../../hooks";
-import { proportional } from "../../../../utils";
+import { useScrollPos } from "../../../hooks";
+import { proportional } from "../../../utils";
 
 const visibilitySensorOptions = {
   partialVisibility: true,

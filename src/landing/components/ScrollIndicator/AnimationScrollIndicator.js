@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { Title6 } from "../Text";
-import { media, proportional } from "../../../../utils";
+import { media, proportional } from "../../../utils";
 import gsap, { Power4 } from "gsap";
 import { AnimatedArrow } from "../DecoElements";
 

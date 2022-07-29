@@ -2,11 +2,10 @@ import React, { useRef, useEffect, useState } from "react";
 import styled from "styled-components";
 import FixedTextContainer from "./FixedTextContainer";
 import { Title4, Text2 } from "../Text";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
-import ShopNow from "../CallToAction/SimplifiedShopNow";
-import { useTranslation } from "../../../../hooks";
+import { useTranslation } from "../../../hooks";
 
 const Title = styled(Title4).attrs({ marginBottom: [30, 33] })`
   ${proportional};

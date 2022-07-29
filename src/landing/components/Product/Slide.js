@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import { ProductDetails } from "./index";
-import { AspectRatio } from "../../../../components";
+import { AspectRatio } from "../../../components";
 
 const SlideWrap = styled.div.attrs({
   width: [259, 413],

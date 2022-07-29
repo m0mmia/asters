@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { proportional } from "../../../../utils";
+import { proportional } from "../../../utils";
 import ShopNow from "../CallToAction/ShopNow";
 import { Text6 } from "../Text";
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import gsap from "gsap";
 import { GenderIcon } from "./GenderIcon";
 import CustomEase from "gsap/CustomEase";
-import { media } from "../../../../utils";
+import { media } from "../../../utils";
 gsap.registerPlugin(CustomEase);
 
 const HoverTextWrapper = styled.div`

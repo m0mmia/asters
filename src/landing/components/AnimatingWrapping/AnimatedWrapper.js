@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 // import { ShopButton } from "./ShopButton";
-import { proportional, media } from "../../../../utils";
-import { useScrollPos } from "../../../../hooks";
+import { proportional, media } from "../../../utils";
+import { useScrollPos } from "../../../hooks";
 import { gsap, Power2, Linear } from "gsap";
 import VisibilitySensor from "react-visibility-sensor";
 

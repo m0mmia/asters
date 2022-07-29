@@ -1,5 +1,5 @@
 import React from "react";
-import { assetUrl } from "../../../../utils";
+import { assetUrl } from "../../../utils";
 import { DiscoverCard } from "../DiscoverCard";
 
 export default () => {

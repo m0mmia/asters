@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { assetUrl, getIsMobileWidth, proportional } from "../../../utils";
+import { assetUrl, getIsMobileWidth, proportional } from "../../utils";
 import {
   ResponsiveImageBlock,
   ImageContainer,

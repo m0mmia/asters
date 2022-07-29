@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useRef } from "react";
 import styled from "styled-components";
 // import { ShopButton } from "./ShopButton";
-import { proportional, media } from "../../../../utils";
-import { useScrollPos } from "../../../../hooks";
+import { proportional, media } from "../../../utils";
+import { useScrollPos } from "../../../hooks";
 import { gsap } from "gsap";
 
 // TODO: change to proportional styling here
